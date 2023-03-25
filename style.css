@@ -1,0 +1,38 @@
+.etext{
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(236, 94, 28);
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("images/background.jpeg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+img{
+    width: 40%;
+    margin: 3%;
+  }
+
+.set{
+    text-align: center;
+}
+.set2{
+  position: absolute;
+  left: 30%;
+}
